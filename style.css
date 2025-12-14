@@ -86,5 +86,10 @@ button:hover {
 }
 
 button:active {
+    transform: translateY(4px);
+    box-shadow: 
+        0 2px o hsl(0, 0% 20%),
+        0 4px 6px rgba(0, 0, 0, 0.35);
     filter: brightness(1.2);
 }
+
